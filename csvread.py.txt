@@ -1,0 +1,7 @@
+df = pd.read_csv(
+    "data.csv",
+    sep=",",          # delimiter
+    encoding="utf-8",
+    header=0,         # row number of column names
+    na_values=["NA"]  # missing values
+)
